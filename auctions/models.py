@@ -2,7 +2,10 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 class User(AbstractUser):
-	name = models.CharField(max_length=64)
+	pass
+	# displayName = models.CharField(max_length=64)
+	# username = models.CharField(max_length=20, unique=True)
+	# password = models.CharField(max_length=16)
 
 class AuctionListing(models.Model):
 	FASHION = "F"
