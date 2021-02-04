@@ -1,3 +1,18 @@
 body {
     padding: 10px;
 }
+
+.nav-item.inline {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.number-badge {
+	width: min-content;
+	padding: 1px 3px;
+	border-radius: 5px;
+	background-color: #5f5f5f;
+	color: white;
+	margin-left: -10px;
+}
